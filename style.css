@@ -1,0 +1,137 @@
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(201, 201, 159);
+    background-blend-mode:overlay;
+    text-align: center
+}
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 140px;
+}
+
+.button{
+    border: none;
+    font-size: large;
+    outline: none;
+    text-decoration: none;
+    color: darkolivegreen;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover{
+    color: darkgreen;
+}
+
+#bout-me div{
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.introduction{
+    display: flex;
+    max-width: 1500px;
+    margin: 20px;
+    padding: 20px;
+    flex-direction:row;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.me{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.me .content .image img{
+    flex: 1;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    color: darkgreen;
+}
+h2{
+    color: forestgreen;
+}
+h4{
+    color:darkolivegreen;
+    font-style: italic;
+}
+#p1{
+    font-style: inherit;
+    text-decoration-color: black;
+    color: forestgreen;
+}
+
+.song-list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.song-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    gap: 70;
+}
+
+.song-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.song-item a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkolivegreen;
+    margin-bottom: 10px;
+}
+
+.song-item a:hover{
+    color: seagreen;
+}
+
+ul{
+    list-style: none;
+}
+
+.logo-container{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.logo-container img{
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
